@@ -1,0 +1,1108 @@
+html {
+    height: 100%;
+    cursor: url(../img/cursor_default_vsz0.png), default;
+}
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Rowdies', cursive;
+    font-weight: 300;
+
+}
+header {
+    user-select: none;
+}
+body {
+  background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/backgrounds/greyfade.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
+}
+b {
+  color: rgb(1, 57, 13);
+  font-weight: 700;
+}
+input[type='text']{
+    cursor: url(../img/cursor_db_ibeam_border.png), text;
+}
+button:hover, .calendar__icon{
+    cursor: url(../img/cursor_default_vsz0.png), pointer;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+}
+.header button:last-child {
+  background-color: red;
+  position: absolute;
+  right: 6%;
+  font-size: 25px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px rgba(0, 0, 0, 0.5) solid;
+  color: white;
+  top: 30%;
+  cursor: pointer;
+}
+.header__logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+}
+.header__heading {
+    display: flex;
+    align-items: center;
+}
+.header__span {
+    color: white;
+    font-size: 60px;
+}
+.header__letterbox {
+  width: 75px;
+  height: 75px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.header__letterbox:nth-child(1) {
+    background-color: rgb(249, 67, 67);
+}
+
+.header__letterbox:nth-child(2) {
+    background-color: rgb(2, 99, 2);
+}
+
+.header__letterbox:nth-child(3) {
+    background-color: blue;
+}
+
+.header__letterbox:nth-child(4) {
+    background-color: rgb(183, 7, 157);
+}
+
+.header__letterbox:nth-child(5) {
+    background-color: orange;
+}
+hr {
+    width: 50%;
+    margin: 60px auto 20px auto;
+
+}
+form {
+    width: 100%;
+}
+.input__container {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  .input__field {
+    flex: 1;
+    padding: 20px;
+    border: 2px solid #25282a;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 32px;
+    background: #444444;
+    margin: 20px 0 20px 10px;
+  }
+.input__wrapper {
+  display: flex;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3));
+  align-items: center;
+  border: 1px solid rgba(17,17,17,.5647058824);
+  }
+  .input__glass {
+    background-image: url('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/icons/search.svg');
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20px;
+  }
+  .input__button {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(17,17,17,.5647058824);
+    border-radius: 0 5px 5px 0;
+    color: white;
+    padding: 20px 20px;
+    font-size: 32px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+ 
+  ul {
+    list-style: none;
+    z-index: 13;
+  }
+  .list {
+    position: absolute;
+    left: 25%;
+    border-radius: 0 0 5px 5px;
+    z-index: 20;
+    max-width: 50%;
+    width: 100%;
+    max-height: 318px;
+    overflow-y: auto;
+  }
+  .list-items {
+    border: 1px solid rgba(17,17,17,.5647058824);
+    background-color: #444444;
+    padding: 10px 5px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+  }
+  .list-items:hover {
+    background-color: #dddddd;
+  }
+.list__icon {
+    margin-right: 20px;
+}
+.names {
+    display: none;
+}
+
+.countdown * {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.countdown {
+    display: flex;
+    margin: 0 auto; 
+}
+
+.countdown .cell {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+}
+
+.countdown .digits {
+    font-size: 24px;
+    color: #000;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.countdown .text {
+    margin-top: 10px;
+    color: #ddd;
+}
+
+
+.countdown__heading {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.countdown__heading, .mod__heading,
+#code-boxx,
+#code-boxx * {
+    color: #fff;
+    text-align: center;
+}
+
+.mod__heading {
+  text-transform: uppercase;
+  letter-spacing: 2em;
+}
+.countdown__container{
+    position: absolute;
+    width: 20%;
+    padding: 40px;
+    border-radius: 20px;
+    top: 230px;
+    left: 1%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+.container-calendar {
+    background: #ffffff;
+    right: 20px;
+    position: absolute;
+    top:50%;
+    padding: 0;
+    width: 0;
+    height: auto;
+    margin: 0 auto;
+    overflow: auto;
+    transition: all 0.3s ease-in-out;
+    z-index: 16;
+}
+
+.button-container-calendar button {
+    cursor: pointer;
+    display: inline-block;
+    background: #00a2b7;
+    color: #fff;
+    border: 1px solid #0aa2b5;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.table-calendar {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-calendar td, .table-calendar th {
+    padding: 5px;
+    border: 1px solid #b6b6b6;
+    text-align: center;
+    vertical-align: top;
+}
+
+.date-picker.selected {
+    font-weight: bold;
+    outline: 1px dashed #00BCD4;
+}
+
+.date-picker.selected span {
+    border-bottom: 2px solid currentColor;
+}
+
+#monthAndYear {
+    text-align: center;
+    margin-top: 0;
+}
+
+.button-container-calendar {
+    position: relative;
+    margin-bottom: 1em;
+
+    clear: both;
+}
+
+#previous {
+    float: left;
+}
+
+#next {
+    float: right;
+}
+
+.footer-container-calendar {
+    margin-top: 1em;
+    border-top: 1px solid #dadada;
+    padding: 10px 0;
+}
+
+.footer-container-calendar select {
+    cursor: pointer;
+    display: inline-block;
+    background: #ffffff;
+    color: #585858;
+    border: 1px solid #bfc5c5;
+    border-radius: 3px;
+    padding: 5px 1em;
+}
+  
+.main__container {
+    display: flex;
+}
+
+
+.container {
+  max-width: 1450px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h2 {
+  font-size: 26px;
+  margin: 20px 0;
+  text-align: center;
+  small {
+    font-size: 0.5em;
+  }
+}
+
+.responsive-table {
+  margin-top: 40px;
+  li {
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  .hcol {
+      display: flex;
+      font-size: 14px;
+      text-transform: uppercase;
+      min-width: 160px;
+      align-items: center;
+      justify-content: center;
+      height: 50px;
+      color: white;
+      font-size: 16px;
+      background-color: #535571;
+
+  }
+  .col {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transition: transform 1.5s ease-in-out;
+    transform: rotateY(0deg);
+  }
+  .col.active {
+    transform: rotateY(360deg);
+  }
+  .role__container{
+    color: white;
+      display: flex;
+      justify-content: center;
+      flex: 1;
+      align-items: center;
+      min-width: 160px;
+      text-align: center;
+      font-size: 14px;
+  }
+  .roles__container{
+      display: flex;
+      justify-content: left;
+      flex: 1;
+      align-items: center;
+      min-width: 160px;
+  }
+  .cor {
+      background-color: #6a9a70;
+  }
+  .incor {
+      background-color: #9a564b;
+  }
+  .partial {
+      background-color: rgb(248, 176, 104);
+  }
+  .hero_name {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(0, 0, 0, 0.3);
+      justify-content: space-between;
+  }
+  .hero_text {
+      margin-top: 22px;
+      color: white;
+  }
+
+}
+
+.dotle__icon {
+  user-select: none;
+  width: 30px;
+  margin: 0px 5px 0px 5px;
+  height: 22px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+.icon__attribute {
+  max-width: 45px;
+  max-height: 45px;
+  width: 100%;
+  height: 100%;
+}
+.icon__team {
+  max-width: 80%;
+  max-height: 80%;
+  width: 100%;
+  height: 100%;
+}  
+.icon__atype {
+  max-width: 80%;
+  width: 100%;
+  height: 100%;
+}
+.icon__minimap {
+  width: auto;
+  height: 80%;
+}
+.Initiator {
+  background-image: url(../img/Initiator.png);
+}
+.Initiator:hover::before, .Durable:hover::before, .Disabler:hover::before,.Escape:hover::before,.Nuker:hover::before,.Support:hover::before,.Carry:hover::before,.Pusher:hover::before{
+  content: attr(rolename);
+  position: absolute;
+  margin-top: -30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  white-space: nowrap;
+  display: flex;
+}
+
+.Durable {
+  background-image: url(../img/Durable.png);
+}
+.Disabler {
+  background-image: url(../img/Disabler.png);
+}
+.Carry {
+  background-image: url(../img/Carry.png);
+}
+.Pusher {
+  background-image: url(../img/Pusher.png);
+}
+.Nuker {
+  background-image: url(../img/Nuker.png);
+}
+.Escape {
+  background-image: url(../img/Escape.png);
+}
+.Support {
+  background-image: url(../img/Support.png);
+}
+.Universal {
+  background-image: url(../img/DOTA_ATTRIBUTE_ALL.png);
+}
+.Strength {
+  background-image: url(../img/DOTA_ATTRIBUTE_STRENGTH.png);
+}
+.Agility {
+  background-image: url(../img/DOTA_ATTRIBUTE_AGILITY.png);
+}
+.Intelligence {
+  background-image: url(../img/DOTA_ATTRIBUTE_INTELLIGENCE.png);
+}
+.Melee {
+  background-image: url(../img/Melee.png);
+}
+.Ranged {
+  background-image: url(../img/Ranged.png);
+}
+.Radiant {
+  background-image: url(../img/Radiant_png.png);
+}
+.Dire {
+  background-image: url(../img/Dire_png.png);
+}
+.semicor {
+  background-color: rgba(249, 194, 76, 0.4);
+}
+.role-level {
+  width: 30px;
+  height: 10px;
+  background-color: wheat;
+}
+.col-2 {
+  flex-direction: row-reverse;
+}
+.calendar__icon {
+  width: 92px;
+  height: 92px;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-image: url(../img/calendar.png);
+  background-position: center;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  border: 10px rgba(0, 0, 0, 0.6) solid;
+}
+.calendar__icon.active {
+  width: 0;
+  height: 0;
+  border: none;
+}
+
+.stats {
+    width: 92px;
+    height: 92px;
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-image: url(../img/stats.png);
+    background-position: center;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    border: 10px rgba(0, 0, 0, 0.6) solid;
+}
+.ranked {
+  display: none;
+}
+.stats__heading {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+.stats__element {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.stats__element span{
+  font-size: 20px;
+}
+.stats.active {
+  border: none;
+}
+.stats__button-container {
+  display: flex;
+  margin-top: 10px;
+}
+.stats__button {
+  flex:1;
+  text-align: center;
+  padding: 5px 0 5px 0;
+}
+.stats__button.active {
+  background-color: #cbcbcb;
+  outline: 2px solid #444444;
+}
+p{
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+}
+
+
+.overlay, .form-panel.one:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+.overlays {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  z-index: 14;
+}
+.form {
+  z-index: 15;
+  position: relative;
+  background: #afaeae;
+  width: 600px;
+  border-radius: 4px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 100px auto 10px;
+  overflow: hidden;
+  display: none;
+}
+.form-toggle {
+  z-index: 10;
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  background: #FFFFFF;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  transform-origin: center;
+  transform: translate(0, -25%) scale(0);
+  opacity: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.form-toggle:before {
+  content: "←";
+  display: block;
+  position: absolute;
+  transform: scale(2.5);
+  left: 40%;
+  top: 25%;
+  color: #4285F4;
+}
+
+.form-toggle.visible {
+  transform: scale(1);
+  opacity: 1;
+}
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 0 20px;
+}
+.form-group:last-child {
+  margin: 0;
+}
+.form-group label {
+  display: block;
+  margin: 0 0 10px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.two .form-group label {
+  color: #FFFFFF;
+}
+.form-group input {
+  outline: none;
+  display: block;
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+}
+.form-group input:focus {
+  color: rgba(0, 0, 0, 0.8);
+}
+.two .form-group input {
+  color: #FFFFFF;
+}
+.two .form-group input:focus {
+  color: #FFFFFF;
+}
+.form-group button {
+  outline: none;
+  background-color: #fff;
+  width: 100%;
+  border: 0;
+  border-radius: 4px;
+  padding: 12px 20px;
+  color: #003A97;
+  border: 2px solid rgba(17,17,17,.5647058824);
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.two .form-group button {
+  background: #FFFFFF;
+  color: #003A97;
+}
+.form-group .form-remember {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.form-group .form-remember input[type=checkbox] {
+  display: inline-block;
+  width: auto;
+  margin: 0 10px 0 0;
+}
+.form-group .form-recovery {
+  color: #003A97;
+  font-size: 12px;
+  text-decoration: none;
+}
+.form-panel {
+  padding: 60px calc(5% + 60px) 60px 60px;
+  box-sizing: border-box;
+}
+.form-panel.one:before {
+  content: "";
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease;
+}
+.form-panel.one.hidden:before {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+.mod__container {
+  display: flex;
+  flex-direction: column;
+}
+.mod__text {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2em;
+  margin-bottom: 3px;
+}
+.form-panel.two {
+  z-index: 5;
+  position: absolute;
+  top: 0;
+  left: 95%;
+  background: #444444;
+  width: 100%;
+  min-height: 100%;
+  padding: 60px calc(10% + 60px) 60px 60px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.form-panel.two:before, .form-panel.two:after {
+  content: "CLICK TO REGISTER";
+  display: flex;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  height: 25px;
+  width: 500px;
+  transition: 0.3s ease;
+  transform: rotate(90deg);
+  transform-origin: left bottom;
+  color: white;
+  letter-spacing: 0.2em;
+}
+
+.form-panel.two:hover {
+  left: 93%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.form-panel.two:hover:before, .form-panel.two:hover:after {
+  opacity: 0;
+}
+.form-panel.two.active {
+  left: 10%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+}
+.form-panel.two.active:before, .form-panel.two.active:after {
+  opacity: 0;
+}
+.form-header {
+  margin: 0 0 40px;
+}
+.form-header h1 {
+  padding: 4px 0;
+  color: #003A97;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.two .form-header h1 {
+  position: relative;
+  z-index: 40;
+  color: #fff;
+}
+.pen-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+  margin: 20px auto 100px;
+}
+.pen-footer a {
+  color: #FFFFFF;
+  font-size: 12px;
+  text-decoration: none;
+  text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+.pen-footer a .material-icons {
+  width: 12px;
+  margin: 0 5px;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+.cp-fab {
+  background: #FFFFFF !important;
+  color: #4285F4 !important;
+}
+.log__container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 5%;
+}
+.log__button {
+  font-size: 25px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px rgba(0, 0, 0, 0.5) solid;
+  color: white;
+  top: 30%;
+  margin-left: 15px;
+}
+.question {
+  width: 92px;
+  height: 92px;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-image: url(../img/question.png);
+  background-position: center;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  border: 10px rgba(0, 0, 0, 0.6) solid;
+}
+
+.leaderboard__icon {
+  width: 92px;
+  height: 92px;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-image: url(../img/leaderboard.png);
+  background-position: center;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  border: 10px rgba(0, 0, 0, 0.6) solid;
+}
+.question.active, .stats.active {
+  width: 0;
+  height: 0;
+  border: none;
+}
+
+.question__container, .stats__container {
+  background: #ffffff;
+  position: absolute;
+  display: flex;
+  right: 20px;
+  width: 0;
+  top: 50%;
+  height: 334px;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  text-align: left;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  overflow-y:hidden;
+  z-index: 400;
+}
+.stats__container.active {
+  display: block;
+  padding: 15px;
+  right: 20px;
+  border: 10px solid rgba(0, 0, 0, 0.5);
+}
+
+.question__text{
+  color: black;
+  font-weight: 300;
+  font-size: 17px;
+  text-align: start;
+}
+
+.question__have-fun {
+  color: red;
+  text-align: center;
+}
+
+.toggle-password, .toggle-password-login {
+  cursor: pointer;
+  position: absolute;
+  transform: translateX(400px) translateY(240%);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 12px;
+}
+.regpass {
+  transform: translateX(368px) translateY(240%);
+  color: #fff;
+}
+#error-message {
+  font-size: 20px;
+  text-decoration: none;
+  color: #9a564b;
+}
+.footer__container {
+  padding: 10px;
+}
+.footer__text {
+  font-size: 10px;
+  color: #626262;
+}
+.available {
+  background-color: wheat;
+}
+.day__heading {
+  color: white;
+  font-size: 40px;
+  margin: 20px 0 0 0;
+}
+.mod__link {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+.menu__container {
+  position: absolute;
+  z-index: 1;
+  right: 180px;
+  top:  200px;
+}
+.menu__container--active .menu__subcontainer {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+.menu__container--active .menu__button:nth-child(1) {
+  transform: translate(-110%, -150%) rotate(0deg);
+}
+.menu__container--active .menu__button:nth-child(2) {
+  transform: translate(10%, -150%) rotate(0deg);
+}
+.menu__container--active .menu__button:nth-child(3) {
+  transform: translate(65%, -50%) rotate(0deg);
+}
+.menu__container--active .menu__button:nth-child(4) {
+  transform: translate(10%, 50%) rotate(0deg);
+}
+.menu__container--active .menu__button:nth-child(5) {
+  transform: translate(-110%, 50%) rotate(0deg);
+}
+.menu__container--active .menu__button:nth-child(6) {
+  transform: translate(-165%, -50%) rotate(0deg);
+}
+.menu {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  align-items: center;
+  border: 4px solid #19182B;
+  box-shadow: inset 0 -8px 0 #c8c8c8;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  font-size: 0;
+  justify-content: center;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-image: url(../img/menu.png);
+  background-position: center;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.menu:hover {
+  box-shadow: 0 2px 0 #fff, 0 0 4px rgba(255, 255, 255, 0.5);
+}
+.menu:focus, .buttons__toggle--active {
+  background-color: #fff;
+  box-shadow: inset 0 8px 0 #aaa9a9;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+.menu i {
+  font-size: 3.2rem;
+}
+.menu__subcontainer {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(180deg);
+  transform-origin: center;
+  transition: transform 0.75s ease;
+  z-index: 0;
+}
+.menu__button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  align-items: center;
+  background-color: #fff;
+  border: 4px solid #19182B;
+  border-radius: 50%;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  font-size: 0;
+  height: 120px;
+  justify-content: center;
+  text-decoration: none;
+  width: 120px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(180deg);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.menu__button i {
+  font-size: 3.2rem;
+}
+.menu__button:nth-child(1) {
+  transition-delay: calc(1 * 0.075s);
+  z-index: calc(6 - 1);
+}
+.menu__button:nth-child(2) {
+  transition-delay: calc(2 * 0.075s);
+  z-index: calc(6 - 2);
+}
+.menu__button:nth-child(3) {
+  transition-delay: calc(3 * 0.075s);
+  z-index: calc(6 - 3);
+}
+.menu__button:nth-child(4) {
+  transition-delay: calc(4 * 0.075s);
+  z-index: calc(6 - 4);
+}
+.menu__button:nth-child(5) {
+  transition-delay: calc(5 * 0.075s);
+  z-index: calc(6 - 5);
+}
+.menu__button:nth-child(6) {
+  transition-delay: calc(6 * 0.075s);
+  z-index: calc(6 - 6);
+}
+
+.logout { 
+  background-image: url('../img/logout.png');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}
+.profile { 
+  background-image: url('../img/profile.png');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}
+.menu__login {
+  background-image: url('../img/login.png');
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}

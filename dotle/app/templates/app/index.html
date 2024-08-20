@@ -1,0 +1,110 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+      
+           
+
+            <hr>
+            {% if ranked == True %} <div class="mod__container">
+            <h2 class="day__heading">Guess a hero of a day</h2>
+            <span class="mod__text">Ranked</span>
+            <a href="{% url 'index' %}" class="mod__link">Switch to Classic</a>
+            </div>
+              {% else %}
+              <div class="mod__container">
+                <h2 class="day__heading">Guess a hero of a day</h2>
+            <span class="mod__text">Classic</span>
+            
+            {% if user.is_authenticated %}
+            <a href="{% url 'ranked' %}" class="mod__link">Switch to Ranked</a>
+            {% endif %}
+          </div>
+            {% endif %}
+              
+            {% if is_guessed != True %}
+            <div class="input__container">
+                <form method="post" autocomplete="off" class="dottleform">
+                    {% csrf_token %}
+                    <div class="input__wrapper">
+                        <div class="input__glass"></div>
+                        {{hero_form.hero_field}}
+                        <button class="input__button" type="submit">Guess!</button>
+                    </div>
+                </form> 
+            </div>
+            <ul class="list"></ul>
+            {% else %}
+            <h1 class="countdown__heading">Good job! Today's hero - {{today_hero}} </h1>
+            {% endif %}
+    
+            <hr>
+            {% include 'app/nav.html' %}
+        {% if request.session.live %}
+        <div class="countdown__container">
+            <h1 class="countdown__heading">NEW HERO IN</h1>
+            <div id="timer"></div>
+        </div>
+        {% endif %}
+        <button id="reroll_hero">Reroll hero</button>
+        <div class="container">
+            <ul class="responsive-table attempts_table">
+              <li class="table-header">
+                <div class="hcol col-0">Hero</div>
+                <div class="hcol col-0">Attribute</div>
+                <div class="hcol col-1">Role</div>
+                <div class="hcol col-2">Team</div>
+                <div class="hcol col-3">Attack Type</div>
+                <div class="hcol col-4">Similar Heroes</div>
+                <div class="hcol col-5">Miscellaneous</div>
+              </li>
+              {% for order,hero in request.session.attempts.items reversed %}
+              <li class="table-row">
+                <div class="col hero_name">
+                    <span class="hero_text">{{hero.Name}}</span>
+                    <img src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/{{hero.CodeName}}.png" alt="" width="160">
+                </div>
+                <div class="col {{hero.AttributePrimary.style}}">
+                    <!-- {{hero.AttributePrimary.Name}} -->
+                    <div class="dotle__icon icon__attribute {{hero.AttributePrimary.Name}}"></div>
+                </div>
+                <div class="col col-1">                
+                    {% for rolename,v in hero.Role.items %}
+                    <div class="roles__container {{v.style}}">
+                        <div class="dotle__icon {{v.Name}}" rolename="{{v.Name}}"></div>
+                        {% for level in v.Rolelevels %} 
+                        <div class="role-level"></div> 
+                        {% endfor %}
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="col col-2 {{hero.Team.style}}">
+                    <!-- {{hero.Team.Name}} -->
+                    <div class="dotle__icon icon__team {{hero.Team.Name}}"></div>
+                </div>
+                <div class="col col-3 {{hero.AttackType.style}}">
+                    <!-- {{hero.AttackType.Name}} -->
+                    <div class="dotle__icon icon__atype {{hero.AttackType.Name}}"></div>
+                </div>
+                <div class="col col-4">
+                    {% for id,v in hero.SimilarHeroes.items %}
+                    <div class="role__container {{v.style}}">
+                        {% if v.Name == 'No Information' %}
+                            {{v.Name}}
+                        {% else %}
+                            <img class="dotle__icon icon__minimap" src="https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/{{v.CodeName}}.png" alt="{{v.Name}}">
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+                <div class="col col-4">
+                    {% for adj,v in hero.Adjectives.items %}
+                    <div class="role__container {{v.style}}">
+                        {{v.Name}}
+                    </div>
+                    {% endfor %}
+                </div>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>  
+{% endblock content %}

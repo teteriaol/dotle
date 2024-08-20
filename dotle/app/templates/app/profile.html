@@ -1,0 +1,68 @@
+{% extends 'app/base.html' %}
+{% load static %}
+{% block content %}
+    
+
+{% if user.is_authenticated %}
+  
+
+<div class="profile__form">
+  <form method="post" class="changeform">
+    <div class="form-header">
+      <h1>Change Data</h1>
+    </div>
+    <div class="form-content">
+      <form method="post">
+        {% csrf_token %}
+        <div class="form-group">
+          <label for="username">Username</label>
+          {{changeform.changeusername}}
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          {{changeform.changeemail}}
+        </div>
+        <div class="form-group">
+          <label for="email">New password</label>
+          {{changeform.changenewpassword}}
+        </div>
+        <div class="form-group">
+          <label for="password1">Actual Password</label>
+          {{changeform.changepassword1}}
+          <span class="toggle-password changepass">Show</span>
+        </div>
+        <div class="form-group">
+          <label for="password2">Confirm Actual Password</label>
+          {{changeform.changepassword2}}
+          <span class="toggle-password changepass">Show</span>
+        </div>
+        <div class="form-group">
+          <button type="submit">Confirm changes</button>
+        </div>
+      </form>
+    </div>
+  </form>
+  </div>
+<div class="profile__form">
+  <form method="post" class="delform">
+    {% csrf_token %}
+    <div class="form-header">
+        <h1>Delete account</h1>
+      </div>
+    <p class="profile__text">Type "I want to delete my account"</p>
+    <div class="form-group">
+    {{delform.deleteall}}
+    </div>
+      <div class="form-group">
+        <button type="submit">Delete Account</button>
+      </div>
+  </form> 
+</div>
+  <script src="{% static 'js/profile.js' %}"></script>
+{% else %}
+<div class="create-acc__container">
+  <h3>Create an account to unlock this feature </h3>
+  <div class="profile__login"></div>
+</div>
+{% endif %}
+  {% endblock content %}

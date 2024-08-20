@@ -1,0 +1,125 @@
+{% extends 'app/base.html' %}
+
+{% block content %}
+{% include 'app/nav.html' %}
+    <div class="card">     
+        <section class="card-info card-section">
+          {% if user.is_authenticated %}
+            <section class="user row">
+                <h1 class="user-header">
+                    {{user.username}}
+                </h1>
+                <h1>Season 3</h1>
+            </section>
+            
+            <section class="statistics">
+                <article class="statistic">
+                    <h4 class="statistic-title">
+                        Heroes Guessed
+                    </h4>
+                    <h3 class="statistic-value">
+                      {{user_ranked_stats.2}}
+                    </h3>
+                </article>
+                
+                <article class="statistic">
+                    <h4 class="statistic-title">
+                        Average attempts
+                    </h4>
+                    <h3 class="statistic-value">
+                        {{user_ranked_stats.0}}
+                    </h3>
+                </article>
+                <article class="statistic">
+                    <h4 class="statistic-title">
+                        Ranked Points
+                    </h4>
+                    <h3 class="statistic-value">
+                        560
+                    </h3>
+                </article>
+            </section>
+            
+            <div class="dial">
+                <h2 class="dial-title">
+                    35th
+                </h2>
+                
+            </div>
+            {% else %}
+            <h3>Create an account to unlock this feature </h3>
+            <div class="profile__login"></div>
+        {%endif%}
+        </section>
+        
+        <section class="card-details card-section">
+            <h2 class="leaderboard__season-heading">Season 1</h2>
+            <div class="leaderboard__header"><span class="leaderboard__heading">Player</span><span class="leaderboard__heading">Guessed Heroes</span><span class="leaderboard__heading">Average attempts</span><span class="leaderboard__heading">MMR</span></div>
+            <ol class="leaderboard__list">
+                <li class="leaderboard__item"><div class="winner-medal">
+                    <div class="winner-medal__circle winner-medal__circle--gold">
+                      <span>
+                        1
+                      </span>
+                    </div>
+                  </div><span class="leaderboard__stats">Player</span><span class="leaderboard__stats">40</span><span class="leaderboard__stats">2.5</span><span class="leaderboard__stats">400</span></li>
+                <li class="leaderboard__item"><div class="winner-medal">
+                    <div class="winner-medal__circle winner-medal__circle--silver">
+                      <span>
+                        2
+                      </span>
+                    </div></div><span class="leaderboard__stats">Player</span><span class="leaderboard__stats">40</span><span class="leaderboard__stats">2.5</span><span class="leaderboard__stats">400</span></li>
+                <li class="leaderboard__item"><div class="winner-medal">
+                    <div class="winner-medal__circle winner-medal__circle--bronze">
+                      <span>
+                        3
+                      </span>
+                    </div></div><span class="leaderboard__stats">Player</span><span class="leaderboard__stats">40</span><span class="leaderboard__stats">2.5</span><span class="leaderboard__stats">400</span></li>
+                <li class="leaderboard__item"><div class="winner-medal">
+                    <div class="winner-medal__circle winner-medal__circle--normal">
+                      <span>
+                        4
+                      </span>
+                    </div></div><span class="leaderboard__stats">Player</span><span class="leaderboard__stats">40</span><span class="leaderboard__stats">2.5</span><span class="leaderboard__stats">400</span></li>
+                <li class="leaderboard__item"><div class="winner-medal">
+                    <div class="winner-medal__circle winner-medal__circle--normal">
+                      <span>
+                        5
+                      </span>
+                    </div></div><span class="leaderboard__stats">Player</span><span class="leaderboard__stats">40</span><span class="leaderboard__stats">2.5</span><span class="leaderboard__stats">400</span></li>
+                <li class="leaderboard__item"><div class="winner-medal">
+                    <div class="winner-medal__circle winner-medal__circle--normal">
+                      <span>
+                        6
+                      </span>
+                    </div></div><span class="leaderboard__stats">Player</span><span class="leaderboard__stats">40</span><span class="leaderboard__stats">2.5</span><span class="leaderboard__stats">400</span></li>
+                <li class="leaderboard__item"><div class="winner-medal">
+                    <div class="winner-medal__circle winner-medal__circle--normal">
+                      <span>
+                        7
+                      </span>
+                    </div></div><span class="leaderboard__stats">Player</span><span class="leaderboard__stats">40</span><span class="leaderboard__stats">2.5</span><span class="leaderboard__stats">400</span></li>
+                <li class="leaderboard__item"><div class="winner-medal">
+                    <div class="winner-medal__circle winner-medal__circle--normal">
+                      <span>
+                        8
+                      </span>
+                    </div></div><span class="leaderboard__stats">Player</span><span class="leaderboard__stats">40</span><span class="leaderboard__stats">2.5</span><span class="leaderboard__stats">400</span></li>
+                <li class="leaderboard__item"><div class="winner-medal">
+                    <div class="winner-medal__circle winner-medal__circle--normal">
+                      <span>
+                        9
+                      </span>
+                    </div></div><span class="leaderboard__stats">Player</span><span class="leaderboard__stats">40</span><span class="leaderboard__stats">2.5</span><span class="leaderboard__stats">400</span></li>
+                <li class="leaderboard__item"><div class="winner-medal">
+                    <div class="winner-medal__circle winner-medal__circle--normal">
+                      <span>
+                        10
+                      </span>
+                    </div></div><span class="leaderboard__stats">Player</span><span class="leaderboard__stats">40</span><span class="leaderboard__stats">2.5</span><span class="leaderboard__stats">400</span></li>
+            </ol>
+        </section>
+    </div>
+    
+{% endblock content %}
+    

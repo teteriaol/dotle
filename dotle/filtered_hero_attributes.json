@@ -1,0 +1,2452 @@
+{
+    "1": {
+        "HeroID": "102",
+        "CodeName": "npc_dota_hero_abaddon",
+        "Name": "Abaddon",
+        "Role": "Support,Carry,Durable",
+        "Rolelevels": "2,1,2",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "57,99,104",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "81",
+        "NameAliases": "Abaddon",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Steed": "1",
+            "Cape": "1",
+            "Blue": "1"
+        }
+    },
+    "2": {
+        "HeroID": "73",
+        "CodeName": "npc_dota_hero_alchemist",
+        "Name": "Alchemist",
+        "Role": "Carry,Support,Durable,Disabler,Initiator,Nuker",
+        "Rolelevels": "2,1,2,1,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "89,94,69",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "7",
+        "NameAliases": "Alchemist",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Steed": "1",
+            "Bearded": "1",
+            "Potbelly": "1"
+        }
+    },
+    "3": {
+        "HeroID": "68",
+        "CodeName": "npc_dota_hero_ancient_apparition",
+        "Name": "Ancient Apparition",
+        "Role": "Support,Disabler,Nuker",
+        "Rolelevels": "2,1,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "87,128,5",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "31",
+        "NameAliases": "aa",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "0",
+            "Nose": "0",
+            "Flying": "1",
+            "Icy": "1",
+            "Blue": "1"
+        }
+    },
+    "4": {
+        "HeroID": "1",
+        "CodeName": "npc_dota_hero_antimage",
+        "Name": "Anti-Mage",
+        "Role": "Carry,Escape,Nuker",
+        "Rolelevels": "3,3,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "109,12,94",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "62",
+        "NameAliases": "am,wei",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Nice Pecs": "1",
+            "Parent": "1"
+        }
+    },
+    "5": {
+        "HeroID": "113",
+        "CodeName": "npc_dota_hero_arc_warden",
+        "Name": "Arc Warden",
+        "Role": "Carry,Escape,Nuker",
+        "Rolelevels": "3,3,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "34,53,80",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "0",
+        "NameAliases": "zet",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Nose": "0",
+            "Cape": "1",
+            "Arachnophobic": "1",
+            "Blue": "1"
+        }
+    },
+    "6": {
+        "HeroID": "2",
+        "CodeName": "npc_dota_hero_axe",
+        "Name": "Axe",
+        "Role": "Initiator,Durable,Disabler,Carry",
+        "Rolelevels": "3,3,2,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "96,16,104",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "8",
+        "NameAliases": "Axe",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bearded": "1",
+            "Nice Pecs": "1",
+            "Red": "1"
+        }
+    },
+    "7": {
+        "HeroID": "3",
+        "CodeName": "npc_dota_hero_bane",
+        "Name": "Bane",
+        "Role": "Support,Disabler,Nuker,Durable",
+        "Rolelevels": "2,3,1,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "87,5,20",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "26",
+        "NameAliases": "Bane",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "4",
+            "Nose": "0",
+            "Bad Teeth": "1",
+            "Flying": "1"
+        }
+    },
+    "8": {
+        "HeroID": "65",
+        "CodeName": "npc_dota_hero_batrider",
+        "Name": "Batrider",
+        "Role": "Initiator,Disabler,Escape",
+        "Rolelevels": "3,2,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "20,19,123",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "25",
+        "NameAliases": "br",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Steed": "1",
+            "Cape": "1",
+            "Arachnophobic": "1",
+            "Flying": "1",
+            "Fiery": "1",
+            "Red": "1"
+        }
+    },
+    "9": {
+        "HeroID": "38",
+        "CodeName": "npc_dota_hero_beastmaster",
+        "Name": "Beastmaster",
+        "Role": "Initiator,Disabler,Durable,Nuker",
+        "Rolelevels": "2,2,2,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "77,92,61",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "42",
+        "NameAliases": "bm",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Horns": "1",
+            "Bearded": "1",
+            "Nice Pecs": "1",
+            "Red": "1"
+        }
+    },
+    "10": {
+        "HeroID": "4",
+        "CodeName": "npc_dota_hero_bloodseeker",
+        "Name": "Bloodseeker",
+        "Role": "Carry,Disabler,Nuker,Initiator",
+        "Rolelevels": "1,1,1,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "54,93,63",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "8",
+        "NameAliases": "bs",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bad Teeth": "1",
+            "Cape": "1",
+            "Red": "1"
+        }
+    },
+    "11": {
+        "HeroID": "62",
+        "CodeName": "npc_dota_hero_bounty_hunter",
+        "Name": "Bounty Hunter",
+        "Role": "Escape,Nuker",
+        "Rolelevels": "2,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "28,88,32",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "42",
+        "NameAliases": "bh",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bad Teeth": "1"
+        }
+    },
+    "12": {
+        "HeroID": "78",
+        "CodeName": "npc_dota_hero_brewmaster",
+        "Name": "Brewmaster",
+        "Role": "Carry,Initiator,Durable,Disabler,Nuker",
+        "Rolelevels": "1,3,2,2,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "113,33,38",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "23",
+        "NameAliases": "bm",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Fuzzy": "1",
+            "Potbelly": "1",
+            "Fiery": "1",
+            "Red": "1"
+        }
+    },
+    "13": {
+        "HeroID": "99",
+        "CodeName": "npc_dota_hero_bristleback",
+        "Name": "Bristleback",
+        "Role": "Carry,Durable,Initiator,Nuker",
+        "Rolelevels": "2,3,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "102,98,129",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "49",
+        "NameAliases": "Rigwarl,bb",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Nice Pecs": "1"
+        }
+    },
+    "14": {
+        "HeroID": "61",
+        "CodeName": "npc_dota_hero_broodmother",
+        "Name": "Broodmother",
+        "Role": "Carry,Pusher,Escape,Nuker",
+        "Rolelevels": "1,3,3,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "92,38,82",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "7",
+        "NameAliases": "bm",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "8",
+            "Nose": "0",
+            "Parent": "1",
+            "Red": "1"
+        }
+    },
+    "15": {
+        "HeroID": "96",
+        "CodeName": "npc_dota_hero_centaur",
+        "Name": "Centaur Warrunner",
+        "Role": "Durable,Initiator,Disabler,Nuker,Escape",
+        "Rolelevels": "3,3,1,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "2,108,29",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "81",
+        "NameAliases": "centaur",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "4",
+            "Horns": "1",
+            "Bearded": "1"
+        }
+    },
+    "16": {
+        "HeroID": "81",
+        "CodeName": "npc_dota_hero_chaos_knight",
+        "Name": "Chaos Knight",
+        "Role": "Carry,Disabler,Durable,Pusher,Initiator",
+        "Rolelevels": "3,2,2,2,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "54,42,18",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "57",
+        "NameAliases": "ck",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Steed": "1",
+            "Red": "1"
+        }
+    },
+    "17": {
+        "HeroID": "66",
+        "CodeName": "npc_dota_hero_chen",
+        "Name": "Chen",
+        "Role": "Support,Pusher",
+        "Rolelevels": "2,2",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "58,53,33",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "18",
+        "NameAliases": "Chen",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Steed": "1",
+            "Arachnophobic": "1"
+        }
+    },
+    "18": {
+        "HeroID": "56",
+        "CodeName": "npc_dota_hero_clinkz",
+        "Name": "Clinkz",
+        "Role": "Carry,Escape,Pusher",
+        "Rolelevels": "2,3,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "32,44,46",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "21",
+        "NameAliases": "Clinkz",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Horns": "1",
+            "Undead": "1",
+            "Fiery": "1"
+        }
+    },
+    "19": {
+        "HeroID": "51",
+        "CodeName": "npc_dota_hero_rattletrap",
+        "Name": "Clockwerk",
+        "Role": "Initiator,Disabler,Durable,Nuker",
+        "Rolelevels": "3,2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "17,71,100",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "16",
+        "NameAliases": "Clockwerk",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Arachnophobic": "1",
+            "Red": "1"
+        }
+    },
+    "20": {
+        "HeroID": "5",
+        "CodeName": "npc_dota_hero_crystal_maiden",
+        "Name": "Crystal Maiden",
+        "Role": "Support,Disabler,Nuker",
+        "Rolelevels": "3,2,2",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "87,3,31",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "25",
+        "NameAliases": "cm,rylai,wolf",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Cape": "1",
+            "Cute": "1",
+            "Icy": "1",
+            "Blue": "1"
+        }
+    },
+    "21": {
+        "HeroID": "55",
+        "CodeName": "npc_dota_hero_dark_seer",
+        "Name": "Dark Seer",
+        "Role": "Initiator,Escape,Disabler",
+        "Rolelevels": "1,1,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "2,98,108",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "7",
+        "NameAliases": "ds",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bearded": "1",
+            "Parent": "1"
+        }
+    },
+    "22": {
+        "HeroID": "119",
+        "CodeName": "npc_dota_hero_dark_willow",
+        "Name": "Dark Willow",
+        "Role": "Support,Nuker,Disabler,Escape",
+        "Rolelevels": "2,2,1,2",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "21,128,9",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "64",
+        "NameAliases": "Dark Willow",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Wings": "1",
+            "Flying": "1",
+            "Cute": "1",
+            "Green": "1"
+        }
+    },
+    "23": {
+        "HeroID": "135",
+        "CodeName": "npc_dota_hero_dawnbreaker",
+        "Name": "Dawnbreaker",
+        "Role": "Carry,Durable",
+        "Rolelevels": "1,2,1,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "0,0,0",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "23",
+        "NameAliases": "Dawnbreaker, Valora",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Fiery": "1"
+        }
+    },
+    "24": {
+        "HeroID": "50",
+        "CodeName": "npc_dota_hero_dazzle",
+        "Name": "Dazzle",
+        "Role": "Support,Nuker,Disabler",
+        "Rolelevels": "3,1,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "57,37,111",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "30",
+        "NameAliases": "Dazzle",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2"
+        }
+    },
+    "25": {
+        "HeroID": "43",
+        "CodeName": "npc_dota_hero_death_prophet",
+        "Name": "Death Prophet",
+        "Role": "Carry,Pusher,Nuker,Disabler",
+        "Rolelevels": "1,3,1,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "36,15,45",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "50",
+        "NameAliases": "dp",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Arachnophobic": "1",
+            "Undead": "1",
+            "Flying": "1"
+        }
+    },
+    "26": {
+        "HeroID": "87",
+        "CodeName": "npc_dota_hero_disruptor",
+        "Name": "Disruptor",
+        "Role": "Support,Disabler,Nuker,Initiator",
+        "Rolelevels": "2,2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "68,3,75",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "37",
+        "NameAliases": "disruptor",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Steed": "1",
+            "Bearded": "1",
+            "Red": "1"
+        }
+    },
+    "27": {
+        "HeroID": "69",
+        "CodeName": "npc_dota_hero_doom_bringer",
+        "Name": "Doom",
+        "Role": "Carry,Disabler,Initiator,Durable,Nuker",
+        "Rolelevels": "1,2,2,2,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "73,4,15",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "31",
+        "NameAliases": "db",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Wings": "1",
+            "Horns": "1",
+            "Nose": "0",
+            "Arachnophobic": "1",
+            "Demon": "1",
+            "Fiery": "1",
+            "Red": "1"
+        }
+    },
+    "28": {
+        "HeroID": "49",
+        "CodeName": "npc_dota_hero_dragon_knight",
+        "Name": "Dragon Knight",
+        "Role": "Carry,Pusher,Durable,Disabler,Initiator,Nuker",
+        "Rolelevels": "2,3,2,2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "18,109,42",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "18",
+        "NameAliases": "dk,davion,dragon's blood",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Fiery": "1",
+            "Red": "1"
+        }
+    },
+    "29": {
+        "HeroID": "6",
+        "CodeName": "npc_dota_hero_drow_ranger",
+        "Name": "Drow Ranger",
+        "Role": "Carry,Disabler,Pusher",
+        "Rolelevels": "2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "48,109,63",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "21",
+        "NameAliases": "Drow Ranger",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Cape": "1",
+            "Icy": "1"
+        }
+    },
+    "30": {
+        "HeroID": "107",
+        "CodeName": "npc_dota_hero_earth_spirit",
+        "Name": "Earth Spirit",
+        "Role": "Nuker,Escape,Disabler,Initiator,Durable",
+        "Rolelevels": "2,2,1,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "126,106,17",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "0",
+        "NameAliases": "Kaolin,Earth",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Nose": "0",
+            "Nice Pecs": "1",
+            "Spirit": "1",
+            "Green": "1"
+        }
+    },
+    "31": {
+        "HeroID": "7",
+        "CodeName": "npc_dota_hero_earthshaker",
+        "Name": "Earthshaker",
+        "Role": "Support,Initiator,Disabler,Nuker",
+        "Rolelevels": "1,3,2,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "29,16,97",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "19",
+        "NameAliases": "es",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Fuzzy": "1"
+        }
+    },
+    "32": {
+        "HeroID": "103",
+        "CodeName": "npc_dota_hero_elder_titan",
+        "Name": "Elder Titan",
+        "Role": "Initiator,Disabler,Nuker,Durable",
+        "Rolelevels": "2,1,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "55,16,114",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "7",
+        "NameAliases": "TC,Cairne,et",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Horns": "1",
+            "Nice Pecs": "1",
+            "Parent": "1"
+        }
+    },
+    "33": {
+        "HeroID": "106",
+        "CodeName": "npc_dota_hero_ember_spirit",
+        "Name": "Ember Spirit",
+        "Role": "Carry,Escape,Nuker,Disabler,Initiator",
+        "Rolelevels": "2,3,1,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "126,107,17",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "0",
+        "NameAliases": "Xin,Ember",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Spirit": "1",
+            "Red": "1"
+        }
+    },
+    "34": {
+        "HeroID": "58",
+        "CodeName": "npc_dota_hero_enchantress",
+        "Name": "Enchantress",
+        "Role": "Support,Pusher,Durable,Disabler",
+        "Rolelevels": "2,2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "66,53,33",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "6",
+        "NameAliases": "Enchantress",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "4",
+            "Horns": "1",
+            "Fuzzy": "1",
+            "Arachnophobic": "1",
+            "Cute": "1",
+            "Green": "1"
+        }
+    },
+    "35": {
+        "HeroID": "33",
+        "CodeName": "npc_dota_hero_enigma",
+        "Name": "Enigma",
+        "Role": "Disabler,Initiator,Pusher",
+        "Rolelevels": "2,2,2",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "78,38,37",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "3",
+        "NameAliases": "Enigma",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "0",
+            "Nose": "0",
+            "Nice Pecs": "1",
+            "Flying": "1",
+            "Blue": "1"
+        }
+    },
+    "36": {
+        "HeroID": "41",
+        "CodeName": "npc_dota_hero_faceless_void",
+        "Name": "Faceless Void",
+        "Role": "Carry,Initiator,Disabler,Escape,Durable",
+        "Rolelevels": "2,3,2,1,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "1,44,8",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "62",
+        "NameAliases": "fv",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Nose": "0",
+            "Nice Pecs": "1"
+        }
+    },
+    "37": {
+        "HeroID": "121",
+        "CodeName": "npc_dota_hero_grimstroke",
+        "Name": "Grimstroke",
+        "Role": "Support,Nuker,Disabler,Escape",
+        "Rolelevels": "2,2,2,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "26,27,31",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "23",
+        "NameAliases": "gs",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "0",
+            "Undead": "1",
+            "Flying": "1"
+        }
+    },
+    "38": {
+        "HeroID": "72",
+        "CodeName": "npc_dota_hero_gyrocopter",
+        "Name": "Gyrocopter",
+        "Role": "Carry,Nuker,Disabler",
+        "Rolelevels": "3,1,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "94,109,6",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "35",
+        "NameAliases": "Gyrocopter",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Steed": "1",
+            "Flying": "1"
+        }
+    },
+    "39": {
+        "HeroID": "123",
+        "CodeName": "npc_dota_hero_hoodwink",
+        "Name": "Hoodwink",
+        "Role": "Support,Nuker,Escape,Disabler",
+        "Rolelevels": "2,2,2,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "21,9,65",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "128",
+        "NameAliases": "squirrel",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "4",
+            "Fuzzy": "1",
+            "Cute": "1",
+            "Green": "1"
+        }
+    },
+    "40": {
+        "HeroID": "59",
+        "CodeName": "npc_dota_hero_huskar",
+        "Name": "Huskar",
+        "Role": "Carry,Durable,Initiator",
+        "Rolelevels": "2,2,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "47,15,43",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "50",
+        "NameAliases": "Huskar",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Nice Pecs": "1",
+            "Undead": "1",
+            "Fiery": "1"
+        }
+    },
+    "41": {
+        "HeroID": "74",
+        "CodeName": "npc_dota_hero_invoker",
+        "Name": "Invoker",
+        "Role": "Carry,Nuker,Disabler,Escape,Pusher",
+        "Rolelevels": "1,3,2,1,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "34,22,45",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "25",
+        "NameAliases": "kid",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Cape": "1",
+            "Parent": "1",
+            "Fiery": "1",
+            "Icy": "1"
+        }
+    },
+    "42": {
+        "HeroID": "91",
+        "CodeName": "npc_dota_hero_wisp",
+        "Name": "Io",
+        "Role": "Support,Escape,Nuker",
+        "Rolelevels": "3,2,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "50,57,111",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "22",
+        "NameAliases": "wisp",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "0",
+            "Nose": "0",
+            "Flying": "1",
+            "Blue": "1"
+        }
+    },
+    "43": {
+        "HeroID": "64",
+        "CodeName": "npc_dota_hero_jakiro",
+        "Name": "Jakiro",
+        "Role": "Support,Nuker,Pusher,Disabler",
+        "Rolelevels": "1,2,2,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "5,31,90",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "5",
+        "NameAliases": "Jakiro",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Wings": "1",
+            "Flying": "1",
+            "Fiery": "1",
+            "Icy": "1",
+            "Blue": "1",
+            "Red": "1"
+        }
+    },
+    "44": {
+        "HeroID": "8",
+        "CodeName": "npc_dota_hero_juggernaut",
+        "Name": "Juggernaut",
+        "Role": "Carry,Pusher,Escape",
+        "Rolelevels": "2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "18,41,44",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "42",
+        "NameAliases": "Juggernaut",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Nose": "0",
+            "Bearded": "1",
+            "Bad Teeth": "1",
+            "Nice Pecs": "1"
+        }
+    },
+    "45": {
+        "HeroID": "90",
+        "CodeName": "npc_dota_hero_keeper_of_the_light",
+        "Name": "Keeper of the Light",
+        "Role": "Support,Nuker,Disabler",
+        "Rolelevels": "3,2,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "64,5,31",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "81",
+        "NameAliases": "keeper,ezalor,kotl",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Steed": "1",
+            "Bearded": "1",
+            "Parent": "1"
+        }
+    },
+    "46": {
+        "HeroID": "23",
+        "CodeName": "npc_dota_hero_kunkka",
+        "Name": "Kunkka",
+        "Role": "Carry,Support,Disabler,Initiator,Durable,Nuker",
+        "Rolelevels": "2,1,2,2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "19,129,18",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "29",
+        "NameAliases": "Kunkka",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bearded": "1",
+            "Undead": "1",
+            "Aquatic": "1"
+        }
+    },
+    "47": {
+        "HeroID": "104",
+        "CodeName": "npc_dota_hero_legion_commander",
+        "Name": "Legion Commander",
+        "Role": "Carry,Disabler,Initiator,Durable,Nuker",
+        "Rolelevels": "1,2,1,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "2,60,93",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "23",
+        "NameAliases": "Tresdin,Legion,lc",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Red": "1"
+        }
+    },
+    "48": {
+        "HeroID": "52",
+        "CodeName": "npc_dota_hero_leshrac",
+        "Name": "Leshrac",
+        "Role": "Carry,Support,Nuker,Pusher,Disabler",
+        "Rolelevels": "1,1,3,3,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "74,25,45",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "26",
+        "NameAliases": "Leshrac",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "4",
+            "Horns": "1",
+            "Blue": "1"
+        }
+    },
+    "49": {
+        "HeroID": "31",
+        "CodeName": "npc_dota_hero_lich",
+        "Name": "Lich",
+        "Role": "Support,Nuker",
+        "Rolelevels": "3,2",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "5,30,121",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "5",
+        "NameAliases": "Lich",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Undead": "1",
+            "Flying": "1",
+            "Icy": "1",
+            "Blue": "1"
+        }
+    },
+    "50": {
+        "HeroID": "54",
+        "CodeName": "npc_dota_hero_life_stealer",
+        "Name": "Lifestealer",
+        "Role": "Carry,Durable,Escape,Disabler",
+        "Rolelevels": "2,2,1,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "104,28,93",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "42",
+        "NameAliases": "ls",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bad Teeth": "1",
+            "Undead": "1"
+        }
+    },
+    "51": {
+        "HeroID": "25",
+        "CodeName": "npc_dota_hero_lina",
+        "Name": "Lina",
+        "Role": "Support,Carry,Nuker,Disabler",
+        "Rolelevels": "1,1,3,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "39,43,11",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "5",
+        "NameAliases": "Lina",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Flying": "1",
+            "Fiery": "1",
+            "Red": "1"
+        }
+    },
+    "52": {
+        "HeroID": "26",
+        "CodeName": "npc_dota_hero_lion",
+        "Name": "Lion",
+        "Role": "Support,Disabler,Nuker,Initiator",
+        "Rolelevels": "2,3,3,2",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "27,79,31",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "30",
+        "NameAliases": "Lion",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Cape": "1",
+            "Demon": "1"
+        }
+    },
+    "53": {
+        "HeroID": "80",
+        "CodeName": "npc_dota_hero_lone_druid",
+        "Name": "Lone Druid",
+        "Role": "Carry,Pusher,Durable",
+        "Rolelevels": "2,3,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "92,77,38",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "49",
+        "NameAliases": "ld",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Fuzzy": "1",
+            "Bearded": "1",
+            "Arachnophobic": "1"
+        }
+    },
+    "54": {
+        "HeroID": "48",
+        "CodeName": "npc_dota_hero_luna",
+        "Name": "Luna",
+        "Role": "Carry,Nuker,Pusher",
+        "Rolelevels": "2,2,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "94,72,109",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "25",
+        "NameAliases": "Luna",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Steed": "1",
+            "Blue": "1"
+        }
+    },
+    "55": {
+        "HeroID": "77",
+        "CodeName": "npc_dota_hero_lycan",
+        "Name": "Lycan",
+        "Role": "Carry,Pusher,Durable,Escape",
+        "Rolelevels": "2,3,1,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "38,78,81",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "42",
+        "NameAliases": "Lycan",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Fuzzy": "1",
+            "Bearded": "1",
+            "Arachnophobic": "1"
+        }
+    },
+    "56": {
+        "HeroID": "97",
+        "CodeName": "npc_dota_hero_magnataur",
+        "Name": "Magnus",
+        "Role": "Initiator,Disabler,Nuker,Escape",
+        "Rolelevels": "3,2,1,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "23,129,18",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "29",
+        "NameAliases": "magnataur, magnus",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "4",
+            "Horns": "1",
+            "Fuzzy": "1"
+        }
+    },
+    "57": {
+        "HeroID": "136",
+        "CodeName": "npc_dota_hero_marci",
+        "Name": "Marci",
+        "Role": "Support,Carry,Initiator,Disabler,Escape",
+        "Rolelevels": "1,1,2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "0,0,0",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "9",
+        "NameAliases": "Marci",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Cape": "1",
+            "Cute": "1"
+        }
+    },
+    "58": {
+        "HeroID": "129",
+        "CodeName": "npc_dota_hero_mars",
+        "Name": "Mars",
+        "Role": "Carry,Initiator,Disabler,Durable",
+        "Rolelevels": "1,2,2,3",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "23,99,97",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "96",
+        "NameAliases": "mars",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bearded": "1",
+            "Nice Pecs": "1",
+            "Parent": "1",
+            "Red": "1"
+        }
+    },
+    "59": {
+        "HeroID": "94",
+        "CodeName": "npc_dota_hero_medusa",
+        "Name": "Medusa",
+        "Role": "Carry,Disabler,Durable",
+        "Rolelevels": "3,1,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "1,73,89",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "22",
+        "NameAliases": "medusa,gorgon",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "0",
+            "Green": "1"
+        }
+    },
+    "60": {
+        "HeroID": "82",
+        "CodeName": "npc_dota_hero_meepo",
+        "Name": "Meepo",
+        "Role": "Carry,Escape,Nuker,Disabler,Initiator,Pusher",
+        "Rolelevels": "2,2,2,1,1,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "66,61,81",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "16",
+        "NameAliases": "geomancer,meepwn",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Fuzzy": "1",
+            "Parent": "1",
+            "Cute": "1"
+        }
+    },
+    "61": {
+        "HeroID": "9",
+        "CodeName": "npc_dota_hero_mirana",
+        "Name": "Mirana",
+        "Role": "Carry,Support,Escape,Nuker,Disabler",
+        "Rolelevels": "1,1,2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "21,14,123",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "48",
+        "NameAliases": "dragon's blood",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Steed": "1"
+        }
+    },
+    "62": {
+        "HeroID": "114",
+        "CodeName": "npc_dota_hero_monkey_king",
+        "Name": "Monkey King",
+        "Role": "Carry,Escape,Disabler,Initiator",
+        "Rolelevels": "2,2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "95,44,70",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "0",
+        "NameAliases": "mk",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Fuzzy": "1",
+            "Cape": "1",
+            "Green": "1"
+        }
+    },
+    "63": {
+        "HeroID": "10",
+        "CodeName": "npc_dota_hero_morphling",
+        "Name": "Morphling",
+        "Role": "Carry,Escape,Durable,Nuker,Disabler",
+        "Rolelevels": "3,3,2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "113,109,94",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "36",
+        "NameAliases": "Morphling",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "0",
+            "Nose": "0",
+            "Aquatic": "1",
+            "Blue": "1"
+        }
+    },
+    "64": {
+        "HeroID": "138",
+        "CodeName": "npc_dota_hero_muerta",
+        "Name": "Muerta",
+        "Role": "Carry,Nuker,Disabler",
+        "Rolelevels": "3,2,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "0,0,0",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "6",
+        "NameAliases": "Muerta",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Cape": "1",
+            "Undead": "1",
+            "Blue": "1",
+            "Green": "1"
+        }
+    },
+    "65": {
+        "HeroID": "89",
+        "CodeName": "npc_dota_hero_naga_siren",
+        "Name": "Naga Siren",
+        "Role": "Carry,Support,Pusher,Disabler,Initiator,Escape",
+        "Rolelevels": "3,1,2,2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "12,94,67",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "23",
+        "NameAliases": "naga",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "0",
+            "Aquatic": "1",
+            "Green": "1"
+        }
+    },
+    "66": {
+        "HeroID": "53",
+        "CodeName": "npc_dota_hero_furion",
+        "Name": "Nature's Prophet",
+        "Role": "Carry,Pusher,Escape,Nuker",
+        "Rolelevels": "1,3,1,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "34,58,66",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "7",
+        "NameAliases": "np",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bearded": "1",
+            "Cape": "1",
+            "Arachnophobic": "1",
+            "Green": "1"
+        }
+    },
+    "67": {
+        "HeroID": "36",
+        "CodeName": "npc_dota_hero_necrolyte",
+        "Name": "Necrophos",
+        "Role": "Carry,Nuker,Durable,Disabler",
+        "Rolelevels": "1,2,1,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "102,43,76",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "31",
+        "NameAliases": "Necrophos",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bearded": "1",
+            "Undead": "1",
+            "Green": "1"
+        }
+    },
+    "68": {
+        "HeroID": "60",
+        "CodeName": "npc_dota_hero_night_stalker",
+        "Name": "Night Stalker",
+        "Role": "Carry,Initiator,Durable,Disabler,Nuker",
+        "Rolelevels": "1,2,2,2,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "104,59,4",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "8",
+        "NameAliases": "ns",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Wings": "1",
+            "Nose": "0",
+            "Nice Pecs": "1",
+            "Flying": "1",
+            "Blue": "1"
+        }
+    },
+    "69": {
+        "HeroID": "88",
+        "CodeName": "npc_dota_hero_nyx_assassin",
+        "Name": "Nyx Assassin",
+        "Role": "Disabler,Nuker,Initiator,Escape",
+        "Rolelevels": "2,2,2,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "46,62,32",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "62",
+        "NameAliases": "na",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "6",
+            "Nose": "0"
+        }
+    },
+    "70": {
+        "HeroID": "84",
+        "CodeName": "npc_dota_hero_ogre_magi",
+        "Name": "Ogre Magi",
+        "Role": "Support,Nuker,Disabler,Durable,Initiator",
+        "Rolelevels": "2,2,2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "83,85,100",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "49",
+        "NameAliases": "om",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Potbelly": "1",
+            "Fiery": "1",
+            "Blue": "1"
+        }
+    },
+    "71": {
+        "HeroID": "57",
+        "CodeName": "npc_dota_hero_omniknight",
+        "Name": "Omniknight",
+        "Role": "Support,Durable,Nuker",
+        "Rolelevels": "2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "102,111,50",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "49",
+        "NameAliases": "Omniknight",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bearded": "1",
+            "Cape": "1"
+        }
+    },
+    "72": {
+        "HeroID": "111",
+        "CodeName": "npc_dota_hero_oracle",
+        "Name": "Oracle",
+        "Role": "Support,Nuker,Disabler,Escape",
+        "Rolelevels": "3,3,2,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "50,91,57",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "0",
+        "NameAliases": "ora",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Cape": "1",
+            "Flying": "1",
+            "Blue": "1"
+        }
+    },
+    "73": {
+        "HeroID": "76",
+        "CodeName": "npc_dota_hero_obsidian_destroyer",
+        "Name": "Outworld Devourer",
+        "Role": "Carry,Nuker,Disabler",
+        "Rolelevels": "2,2,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "79,36,43",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "43",
+        "NameAliases": "od",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "4",
+            "Wings": "1",
+            "Nose": "0",
+            "Arachnophobic": "1",
+            "Flying": "1",
+            "Green": "1"
+        }
+    },
+    "74": {
+        "HeroID": "120",
+        "CodeName": "npc_dota_hero_pangolier",
+        "Name": "Pangolier",
+        "Role": "Carry,Nuker,Disabler,Durable,Escape,Initiator",
+        "Rolelevels": "2,2,1,1,2,2",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "108,38,129",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "16",
+        "NameAliases": "ar",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Fuzzy": "1",
+            "Parent": "1",
+            "Red": "1"
+        }
+    },
+    "75": {
+        "HeroID": "44",
+        "CodeName": "npc_dota_hero_phantom_assassin",
+        "Name": "Phantom Assassin",
+        "Role": "Carry,Escape",
+        "Rolelevels": "3,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "41,114,93",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "62",
+        "NameAliases": "pa,mortred",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Cape": "1"
+        }
+    },
+    "76": {
+        "HeroID": "12",
+        "CodeName": "npc_dota_hero_phantom_lancer",
+        "Name": "Phantom Lancer",
+        "Role": "Carry,Escape,Pusher,Nuker",
+        "Rolelevels": "2,2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "109,67,89",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "8",
+        "NameAliases": "pl",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bearded": "1",
+            "Blue": "1"
+        }
+    },
+    "77": {
+        "HeroID": "110",
+        "CodeName": "npc_dota_hero_phoenix",
+        "Name": "Phoenix",
+        "Role": "Support,Nuker,Initiator,Escape,Disabler",
+        "Rolelevels": "2,3,2,2,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "85,83,64",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "0",
+        "NameAliases": "ph",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Wings": "1",
+            "Nose": "0",
+            "Flying": "1",
+            "Red": "1"
+        }
+    },
+    "78": {
+        "HeroID": "137",
+        "CodeName": "npc_dota_hero_primal_beast",
+        "Name": "Primal Beast",
+        "Role": "Initiator,Durable,Disabler",
+        "Rolelevels": "3,3,2",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "0,0,0",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "42",
+        "NameAliases": "Primal Beast",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bad Teeth": "1",
+            "Red": "1"
+        }
+    },
+    "79": {
+        "HeroID": "13",
+        "CodeName": "npc_dota_hero_puck",
+        "Name": "Puck",
+        "Role": "Initiator,Disabler,Escape,Nuker",
+        "Rolelevels": "3,3,3,2",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "45,34,101",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "64",
+        "NameAliases": "Puck",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Wings": "1",
+            "Nose": "0",
+            "Flying": "1",
+            "Cute": "1",
+            "Blue": "1"
+        }
+    },
+    "80": {
+        "HeroID": "14",
+        "CodeName": "npc_dota_hero_pudge",
+        "Name": "Pudge",
+        "Role": "Disabler,Initiator,Durable,Nuker",
+        "Rolelevels": "2,2,2,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "9,21,51",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "42",
+        "NameAliases": "Toy Butcher",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bad Teeth": "1",
+            "Nice Pecs": "1",
+            "Potbelly": "1",
+            "Undead": "1",
+            "Red": "1"
+        }
+    },
+    "81": {
+        "HeroID": "45",
+        "CodeName": "npc_dota_hero_pugna",
+        "Name": "Pugna",
+        "Role": "Nuker,Pusher",
+        "Rolelevels": "2,2",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "76,13,53",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "47",
+        "NameAliases": "Pugna",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Horns": "1",
+            "Cape": "1",
+            "Undead": "1",
+            "Green": "1"
+        }
+    },
+    "82": {
+        "HeroID": "39",
+        "CodeName": "npc_dota_hero_queenofpain",
+        "Name": "Queen of Pain",
+        "Role": "Carry,Nuker,Escape",
+        "Rolelevels": "1,3,3",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "25,21,13",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "20",
+        "NameAliases": "qop",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Wings": "1",
+            "Horns": "1",
+            "Demon": "1"
+        }
+    },
+    "83": {
+        "HeroID": "15",
+        "CodeName": "npc_dota_hero_razor",
+        "Name": "Razor",
+        "Role": "Carry,Durable,Nuker,Pusher",
+        "Rolelevels": "2,2,1,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "47,59,43",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "22",
+        "NameAliases": "Razor",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "0",
+            "Nose": "0",
+            "Flying": "1",
+            "Blue": "1"
+        }
+    },
+    "84": {
+        "HeroID": "32",
+        "CodeName": "npc_dota_hero_riki",
+        "Name": "Riki",
+        "Role": "Carry,Escape,Disabler",
+        "Rolelevels": "2,2,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "62,44,63",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "62",
+        "NameAliases": "Riki",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Horns": "1",
+            "Bearded": "1",
+            "Blue": "1"
+        }
+    },
+    "85": {
+        "HeroID": "86",
+        "CodeName": "npc_dota_hero_rubick",
+        "Name": "Rubick",
+        "Role": "Support,Disabler,Nuker",
+        "Rolelevels": "2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "27,26,79",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "37",
+        "NameAliases": "rubick",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Nose": "0",
+            "Cape": "1",
+            "Arachnophobic": "1",
+            "Green": "1"
+        }
+    },
+    "86": {
+        "HeroID": "16",
+        "CodeName": "npc_dota_hero_sand_king",
+        "Name": "Sand King",
+        "Role": "Initiator,Disabler,Support,Nuker,Escape",
+        "Rolelevels": "3,2,1,2,2",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "7,2,96",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "42",
+        "NameAliases": "sk",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "6",
+            "Nose": "0"
+        }
+    },
+    "87": {
+        "HeroID": "79",
+        "CodeName": "npc_dota_hero_shadow_demon",
+        "Name": "Shadow Demon",
+        "Role": "Support,Disabler,Initiator,Nuker",
+        "Rolelevels": "2,2,1,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "27,26,86",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "3",
+        "NameAliases": "sd",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Cape": "1",
+            "Nice Pecs": "1",
+            "Demon": "1",
+            "Red": "1"
+        }
+    },
+    "88": {
+        "HeroID": "11",
+        "CodeName": "npc_dota_hero_nevermore",
+        "Name": "Shadow Fiend",
+        "Role": "Carry,Nuker",
+        "Rolelevels": "2,3",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "25,21,46",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "26",
+        "NameAliases": "sf,nevermore",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "0",
+            "Nose": "0",
+            "Demon": "1",
+            "Flying": "1",
+            "Red": "1"
+        }
+    },
+    "89": {
+        "HeroID": "27",
+        "CodeName": "npc_dota_hero_shadow_shaman",
+        "Name": "Shadow Shaman",
+        "Role": "Support,Pusher,Disabler,Nuker,Initiator",
+        "Rolelevels": "2,3,3,2,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "26,79,87",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "30",
+        "NameAliases": "ss",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bad Teeth": "1"
+        }
+    },
+    "90": {
+        "HeroID": "75",
+        "CodeName": "npc_dota_hero_silencer",
+        "Name": "Silencer",
+        "Role": "Carry,Support,Disabler,Initiator,Nuker",
+        "Rolelevels": "1,1,2,2,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "87,37,11",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "22",
+        "NameAliases": "Silencer",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2"
+        }
+    },
+    "91": {
+        "HeroID": "101",
+        "CodeName": "npc_dota_hero_skywrath_mage",
+        "Name": "Skywrath Mage",
+        "Role": "Support,Nuker,Disabler",
+        "Rolelevels": "2,3,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "22,86,119",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "20",
+        "NameAliases": "dragonus",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Wings": "1",
+            "Flying": "1"
+        }
+    },
+    "92": {
+        "HeroID": "28",
+        "CodeName": "npc_dota_hero_slardar",
+        "Name": "Slardar",
+        "Role": "Carry,Durable,Initiator,Disabler,Escape",
+        "Rolelevels": "2,2,2,1,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "114,95,93",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "29",
+        "NameAliases": "Slardar",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "0",
+            "Aquatic": "1"
+        }
+    },
+    "93": {
+        "HeroID": "93",
+        "CodeName": "npc_dota_hero_slark",
+        "Name": "Slark",
+        "Role": "Carry,Escape,Disabler,Nuker",
+        "Rolelevels": "2,3,1,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "44,32,63",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "23",
+        "NameAliases": "slark",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Aquatic": "1"
+        }
+    },
+    "94": {
+        "HeroID": "128",
+        "CodeName": "npc_dota_hero_snapfire",
+        "Name": "Snapfire",
+        "Role": "Support,Nuker,Disabler,Escape",
+        "Rolelevels": "1,3,1,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "68,120,100",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "23",
+        "NameAliases": "snap,mortimer",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Steed": "1",
+            "Red": "1"
+        }
+    },
+    "95": {
+        "HeroID": "35",
+        "CodeName": "npc_dota_hero_sniper",
+        "Name": "Sniper",
+        "Role": "Carry,Nuker",
+        "Rolelevels": "3,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "113,6,56",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "6",
+        "NameAliases": "Sniper",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bearded": "1",
+            "Cape": "1",
+            "Red": "1"
+        }
+    },
+    "96": {
+        "HeroID": "67",
+        "CodeName": "npc_dota_hero_spectre",
+        "Name": "Spectre",
+        "Role": "Carry,Durable,Escape",
+        "Rolelevels": "3,1,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "12,89,109",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "62",
+        "NameAliases": "Spectre",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "0",
+            "Nose": "0",
+            "Undead": "1"
+        }
+    },
+    "97": {
+        "HeroID": "71",
+        "CodeName": "npc_dota_hero_spirit_breaker",
+        "Name": "Spirit Breaker",
+        "Role": "Carry,Initiator,Disabler,Durable,Escape",
+        "Rolelevels": "1,2,2,2,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "106,126,107",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "7",
+        "NameAliases": "sb",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Horns": "1",
+            "Bearded": "1",
+            "Blue": "1"
+        }
+    },
+    "98": {
+        "HeroID": "17",
+        "CodeName": "npc_dota_hero_storm_spirit",
+        "Name": "Storm Spirit",
+        "Role": "Carry,Escape,Nuker,Initiator,Disabler",
+        "Rolelevels": "2,3,2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "106,126,107",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "23",
+        "NameAliases": "ss,raijin",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bearded": "1",
+            "Spirit": "1",
+            "Blue": "1"
+        }
+    },
+    "99": {
+        "HeroID": "18",
+        "CodeName": "npc_dota_hero_sven",
+        "Name": "Sven",
+        "Role": "Carry,Disabler,Initiator,Durable,Nuker",
+        "Rolelevels": "2,2,2,2,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "42,81,23",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "57",
+        "NameAliases": "Sven",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Nice Pecs": "1"
+        }
+    },
+    "100": {
+        "HeroID": "105",
+        "CodeName": "npc_dota_hero_techies",
+        "Name": "Techies",
+        "Role": "Nuker,Disabler",
+        "Rolelevels": "3,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "14,83,123",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "0",
+        "NameAliases": "Techies",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "6",
+            "Steed": "1",
+            "Potbelly": "1",
+            "Fiery": "1"
+        }
+    },
+    "101": {
+        "HeroID": "46",
+        "CodeName": "npc_dota_hero_templar_assassin",
+        "Name": "Templar Assassin",
+        "Role": "Carry,Escape",
+        "Rolelevels": "2,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "44,32,93",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "57",
+        "NameAliases": "ta",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2"
+        }
+    },
+    "102": {
+        "HeroID": "109",
+        "CodeName": "npc_dota_hero_terrorblade",
+        "Name": "Terrorblade",
+        "Role": "Carry,Pusher,Nuker",
+        "Rolelevels": "3,2,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "12,89,67",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "0",
+        "NameAliases": "tb",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Wings": "1",
+            "Horns": "1",
+            "Demon": "1"
+        }
+    },
+    "103": {
+        "HeroID": "29",
+        "CodeName": "npc_dota_hero_tidehunter",
+        "Name": "Tidehunter",
+        "Role": "Initiator,Durable,Disabler,Nuker,Carry",
+        "Rolelevels": "3,3,2,1,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "16,98,108",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "23",
+        "NameAliases": "Tidehunter",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Nose": "0",
+            "Bad Teeth": "1",
+            "Potbelly": "1",
+            "Aquatic": "1",
+            "Green": "1"
+        }
+    },
+    "104": {
+        "HeroID": "98",
+        "CodeName": "npc_dota_hero_shredder",
+        "Name": "Timbersaw",
+        "Role": "Nuker,Durable,Escape",
+        "Rolelevels": "3,2,2",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "29,108,43",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "19",
+        "NameAliases": "Rizzrack, Shredder, Timbersaw",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Steed": "1",
+            "Bad Teeth": "1"
+        }
+    },
+    "105": {
+        "HeroID": "34",
+        "CodeName": "npc_dota_hero_tinker",
+        "Name": "Tinker",
+        "Role": "Carry,Nuker,Pusher",
+        "Rolelevels": "1,3,2",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "39,13,74",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "25",
+        "NameAliases": "Tinker",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bearded": "1"
+        }
+    },
+    "106": {
+        "HeroID": "19",
+        "CodeName": "npc_dota_hero_tiny",
+        "Name": "Tiny",
+        "Role": "Carry,Nuker,Pusher,Initiator,Durable,Disabler",
+        "Rolelevels": "3,2,2,2,2,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "23,97,18",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "7",
+        "NameAliases": "Tiny",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Nose": "0"
+        }
+    },
+    "107": {
+        "HeroID": "83",
+        "CodeName": "npc_dota_hero_treant",
+        "Name": "Treant Protector",
+        "Role": "Support,Initiator,Durable,Disabler,Escape",
+        "Rolelevels": "3,2,1,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "85,103,105",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "19",
+        "NameAliases": "Treant Protector",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Green": "1"
+        }
+    },
+    "108": {
+        "HeroID": "95",
+        "CodeName": "npc_dota_hero_troll_warlord",
+        "Name": "Troll Warlord",
+        "Role": "Carry,Pusher,Disabler,Durable",
+        "Rolelevels": "3,2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "70,114,4",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "21",
+        "NameAliases": "troll,jahrakal",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Red": "1"
+        }
+    },
+    "109": {
+        "HeroID": "100",
+        "CodeName": "npc_dota_hero_tusk",
+        "Name": "Tusk",
+        "Role": "Initiator,Disabler,Nuker",
+        "Rolelevels": "2,2,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "28,7,51",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "7",
+        "NameAliases": "Tuskarr",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Fuzzy": "1",
+            "Arachnophobic": "1",
+            "Icy": "1"
+        }
+    },
+    "110": {
+        "HeroID": "108",
+        "CodeName": "npc_dota_hero_abyssal_underlord",
+        "Name": "Underlord",
+        "Role": "Support,Nuker,Disabler,Durable,Escape",
+        "Rolelevels": "1,1,1,1,2",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "29,98,43",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "0",
+        "NameAliases": "PitLord,Azgalor,ul",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Horns": "1",
+            "Nose": "0",
+            "Potbelly": "1",
+            "Demon": "1",
+            "Green": "1"
+        }
+    },
+    "111": {
+        "HeroID": "85",
+        "CodeName": "npc_dota_hero_undying",
+        "Name": "Undying",
+        "Role": "Support,Durable,Disabler,Nuker",
+        "Rolelevels": "2,2,1,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "83,102,84",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "16",
+        "NameAliases": "dirge",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bad Teeth": "1",
+            "Undead": "1",
+            "Green": "1"
+        }
+    },
+    "112": {
+        "HeroID": "70",
+        "CodeName": "npc_dota_hero_ursa",
+        "Name": "Ursa",
+        "Role": "Carry,Durable,Disabler",
+        "Rolelevels": "2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "95,44,114",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "19",
+        "NameAliases": "Ursa",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Fuzzy": "1",
+            "Parent": "1"
+        }
+    },
+    "113": {
+        "HeroID": "20",
+        "CodeName": "npc_dota_hero_vengefulspirit",
+        "Name": "Vengeful Spirit",
+        "Role": "Support,Initiator,Disabler,Nuker,Escape",
+        "Rolelevels": "3,2,2,1,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "79,111,3",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "43",
+        "NameAliases": "vs",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Undead": "1",
+            "Spirit": "1",
+            "Green": "1"
+        }
+    },
+    "114": {
+        "HeroID": "40",
+        "CodeName": "npc_dota_hero_venomancer",
+        "Name": "Venomancer",
+        "Role": "Support,Nuker,Initiator,Pusher,Disabler",
+        "Rolelevels": "2,1,1,1,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "47,64,15",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "47",
+        "NameAliases": "Venomancer",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "0",
+            "Nose": "0",
+            "Green": "1"
+        }
+    },
+    "115": {
+        "HeroID": "47",
+        "CodeName": "npc_dota_hero_viper",
+        "Name": "Viper",
+        "Role": "Carry,Durable,Initiator,Disabler",
+        "Rolelevels": "1,2,1,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "15,59,40",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "64",
+        "NameAliases": "Viper",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "0",
+            "Wings": "1",
+            "Arachnophobic": "1",
+            "Flying": "1",
+            "Green": "1"
+        }
+    },
+    "116": {
+        "HeroID": "92",
+        "CodeName": "npc_dota_hero_visage",
+        "Name": "Visage",
+        "Role": "Support,Nuker,Durable,Disabler,Pusher",
+        "Rolelevels": "1,2,1,1,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "77,78,38",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "26",
+        "NameAliases": "visage",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Wings": "1",
+            "Flying": "1",
+            "Blue": "1"
+        }
+    },
+    "117": {
+        "HeroID": "126",
+        "CodeName": "npc_dota_hero_void_spirit",
+        "Name": "Void Spirit",
+        "Role": "Carry,Escape,Nuker,Disabler",
+        "Rolelevels": "2,3,2,1",
+        "Team": "Radiant",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "17,107,106",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "0",
+        "NameAliases": "Void,VS,Inai",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bearded": "1",
+            "Nice Pecs": "1",
+            "Spirit": "1"
+        }
+    },
+    "118": {
+        "HeroID": "37",
+        "CodeName": "npc_dota_hero_warlock",
+        "Name": "Warlock",
+        "Role": "Support,Initiator,Disabler",
+        "Rolelevels": "1,2,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "50,33,57",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "26",
+        "NameAliases": "Warlock",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bearded": "1",
+            "Cape": "1",
+            "Red": "1"
+        }
+    },
+    "119": {
+        "HeroID": "63",
+        "CodeName": "npc_dota_hero_weaver",
+        "Name": "Weaver",
+        "Role": "Carry,Escape",
+        "Rolelevels": "2,3",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "62,32,44",
+        "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+        "LastHitChallengeRivalID": "47",
+        "NameAliases": "Weaver",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "4",
+            "Nose": "0"
+        }
+    },
+    "120": {
+        "HeroID": "21",
+        "CodeName": "npc_dota_hero_windrunner",
+        "Name": "Windranger",
+        "Role": "Carry,Support,Disabler,Escape,Nuker",
+        "Rolelevels": "1,1,1,1,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "128,123,9",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "6",
+        "NameAliases": "wr",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Cape": "1",
+            "Cute": "1",
+            "Green": "1"
+        }
+    },
+    "121": {
+        "HeroID": "112",
+        "CodeName": "npc_dota_hero_winter_wyvern",
+        "Name": "Winter Wyvern",
+        "Role": "Support,Disabler,Nuker",
+        "Rolelevels": "3,2,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "30,64,55",
+        "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+        "LastHitChallengeRivalID": "0",
+        "NameAliases": "Winter Wyvern",
+        "Adjectives": {
+            "Female": "1",
+            "Legs": "2",
+            "Wings": "1",
+            "Flying": "1",
+            "Icy": "1",
+            "Blue": "1"
+        }
+    },
+    "122": {
+        "HeroID": "30",
+        "CodeName": "npc_dota_hero_witch_doctor",
+        "Name": "Witch Doctor",
+        "Role": "Support,Nuker,Disabler",
+        "Rolelevels": "3,2,1",
+        "Team": "Dire",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "31,112,110",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "36",
+        "NameAliases": "wd",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bad Teeth": "1",
+            "Potbelly": "1"
+        }
+    },
+    "123": {
+        "HeroID": "42",
+        "CodeName": "npc_dota_hero_skeleton_king",
+        "Name": "Wraith King",
+        "Role": "Carry,Support,Durable,Disabler,Initiator",
+        "Rolelevels": "2,1,3,2,1",
+        "Team": "Dire",
+        "AttackType": "Melee",
+        "SimilarHeroesID": "8,54,18",
+        "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+        "LastHitChallengeRivalID": "16",
+        "NameAliases": "sk,snk,wk,skeleton",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bearded": "1",
+            "Undead": "1",
+            "Green": "1"
+        }
+    },
+    "124": {
+        "HeroID": "22",
+        "CodeName": "npc_dota_hero_zuus",
+        "Name": "Zeus",
+        "Role": "Nuker,Carry",
+        "Rolelevels": "3,1",
+        "Team": "Radiant",
+        "AttackType": "Ranged",
+        "SimilarHeroesID": "52,45,25",
+        "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+        "LastHitChallengeRivalID": "15",
+        "NameAliases": "Zeus",
+        "Adjectives": {
+            "Male": "1",
+            "Legs": "2",
+            "Bearded": "1",
+            "Nice Pecs": "1",
+            "Parent": "1",
+            "Blue": "1"
+        }
+    }
+}

@@ -1,0 +1,85 @@
+<div class="menu__container">
+	<button class="menu"></button>
+	<div class="menu__subcontainer">
+		<div class="menu__button question"></div>
+		<div class="menu__button calendar__icon"></div>
+		<div class="menu__button stats"></div>
+		<a href="{% url 'leaderboard' %}" class="menu__button leaderboard__icon"></a>
+		<a class="menu__button profile" href="{% url 'profile' %}"></a>
+    
+    {% if user.is_authenticated %}
+    <a class="menu__button logout" href="{% url 'logout' %}"></a>
+    {% else %}
+    <div class="menu__button menu__login"></div>
+    {% endif %}
+      
+	</div>
+</div>
+    <div class="info-wrapper">  
+    <div class="question__container">
+      <p class="question__text">Dotle is a Wordle-like game where you need to guess a hero instead of a word. Every day, you will receive a new hero to guess. You will get clues with each attempt. Simply enter the name of any hero to get started!</p>
+      <p class="question__text">Create an account to guess heroes of past days, track statistics and compete for the first spot on the leaderboard</p>
+      <span class="question__have-fun">Have fun with Dotle!</span>
+    </div>
+    </div>
+    
+    {% if user.is_authenticated %}      
+         <div class="container-calendar">
+            <h3 id="monthAndYear"></h3>
+            
+            <div class="button-container-calendar">
+                <button id="previous" onclick="previous()">&#8249;</button>
+                <button id="next" onclick="next()">&#8250;</button>
+            </div>
+            
+            <table class="table-calendar" id="calendar" data-lang="en">
+                <thead id="thead-month"></thead>
+                <tbody id="calendar-body"></tbody>
+            </table>
+            
+            <div class="footer-container-calendar">
+                 <label for="month">Jump To: </label>
+                 <select id="month" onchange="jump()">
+                     <option value=0>Jan</option>
+                     <option value=1>Feb</option>
+                     <option value=2>Mar</option>
+                     <option value=3>Apr</option>
+                     <option value=4>May</option>
+                     <option value=5>Jun</option>
+                     <option value=6>Jul</option>
+                     <option value=7>Aug</option>
+                     <option value=8>Sep</option>
+                     <option value=9>Oct</option>
+                     <option value=10>Nov</option>
+                     <option value=11>Dec</option>
+                 </select>
+                 <select id="year" onchange="jump()"></select>       
+            </div>
+    
+          </div>
+    
+        <div class="stats__container">
+          <h4 class="stats__heading">{{user.username}}'s stats</h4>
+          <div class="stats__button-container">
+            <div class="stats__button active">Classic</div>
+            <div class="stats__button">Ranked</div>
+          </div>
+          <ul class="stats__list classic">
+            <li class="stats__element"><span>Heroes guessed:</span><span>{{user_stats.2}}</span></li>
+            <li class="stats__element"><span>Avg. attempts:</span><span>{{user_stats.0}}</span></li>
+            <li class="stats__element"><span>Oneshots:</span><span>{{user_stats.3}}</span></li>
+            <li class="stats__element"><span>Total attempts:</span><span>{{user_stats.1}}</span></li>
+          </ul>
+          <ul class="stats__list ranked">
+            <li class="stats__element"><span>Heroes guessed:</span><span>{{user_ranked_stats.2}}</span></li>
+            <li class="stats__element"><span>Avg. attempts:</span><span>{{user_ranked_stats.0}}</span></li>
+            <li class="stats__element"><span>Oneshots:</span><span>{{user_ranked_stats.3}}</span></li>
+            <li class="stats__element"><span>Total attempts:</span><span>{{user_ranked_stats.1}}</span></li>
+            <li class="stats__element"><span>MMR:</span><span>3232</span></li>
+            <li class="stats__element"><span>Season 9 Place:</span><span>120</span></li>
+            <li class="stats__element"><span>Season Wins:</span><span>0</span></li>
+          </ul>
+        </div>
+
+    {% endif %}
+      

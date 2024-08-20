@@ -1,0 +1,121 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dotle || {{user.username}}</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/dotle.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/leaderboard.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/profile.css' %}">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="icon" type="image/x-icon" href="{% static 'img/favicon.ico' %}">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+      <div class="overlays">
+        <div class="form">
+            <div class="form-toggle"></div>
+            <div class="form-panel one">
+              <div class="form-header">
+                <h1>Account Login</h1>
+              </div>
+              <div class="form-content">
+                <form method="post" id="login-form">
+                  {% csrf_token %}  
+                  <div class="form-group">
+                    <label for="logusername">Username</label>
+                    {{logform.logusername}}
+                  </div>
+                  <div class="form-group">
+                    <label for="logpassword">Password</label>
+                    
+                    {{logform.logpassword}}
+                    <span class="toggle-password-login" id="toggle-password">Show</span>
+                  </div>
+                  <div class="form-group">
+                    </label><a class="form-recovery" href="#">Forgot Password?</a>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit">Log In</button>
+                  </div>
+                  <div id="error-message"></div>
+                </form>
+              </div>
+            </div>
+            <div class="form-panel two">
+              <div class="form-header">
+                <h1>Register Account</h1>
+              </div>
+              <div class="form-content">
+                <form method="post">
+                  {% csrf_token %}
+                  <div class="form-group">
+                    <label for="username">Username</label>
+                    {{regform.username}}
+                  </div>
+                  <div class="form-group">
+                    <label for="email">E-mail</label>
+                    {{regform.email}}
+                  </div>
+                  <div class="form-group">
+                    <label for="password1">Password</label>
+                    {{regform.password1}}
+                    <span class="toggle-password regpass">Show</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="password2">Confirm Password</label>
+                    {{regform.password2}}
+                    <span class="toggle-password regpass">Show</span>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit">Register</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <header class="header">
+            <a href="/classic/">
+                <img src="{% static 'img/logo.png' %}" alt="logo" class="header__logo">
+            </a>
+            <div class="header__heading">
+                <div class="header__letterbox"><span class="header__span">D</span></div>
+                <div class="header__letterbox"><span class="header__span">O</span></div>
+                <div class="header__letterbox"><span class="header__span">T</span></div>
+                <div class="header__letterbox"><span class="header__span">L</span></div>
+                <div class="header__letterbox"><span class="header__span">E</span></div>
+            </div>
+        </header>
+        <main>
+          
+          {% block content %}
+            
+          {% endblock content %}
+          
+      <!-- {{request.session.attempts}}       -->
+        <script src="{% static 'js/dotle.js' %}"></script>
+        {% if request.session.live %}
+            <script src="{% static 'js/timer.js' %}"></script>
+        {% endif %}
+        <script src="{% static 'js/calendar.js' %}"></script>
+        <script src="{% static 'js/signup.js' %}"></script>
+        <script src="{% static 'js/leaderboard.js' %}"></script>
+      </main>
+    <footer>
+      <div class="footer__container">
+        <h1 style="color: aliceblue;">Current stage: pre-alpha</h1>
+        <h1 style="color: aliceblue;">To-do: calendar, ranked mode, leaderboard, ux</h1>
+        <p class="footer__text">Created by smooleek and Xenu47</p>
+        <p class="footer__text">Dota 2 is a legal property of Valve. Some of official Dota 2 resources used</p>
+      </div>
+    </footer>
+    </body>
+</html>
